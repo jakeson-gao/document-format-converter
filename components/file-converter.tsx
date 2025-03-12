@@ -4,9 +4,9 @@ import { useState } from "react"
 import { Card } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { FileText, FileSpreadsheet, FileImage, File } from "lucide-react"
-import { OfficeConverter } from "./converters/office-converter"
-import { TextConverter } from "./converters/text-converter"
-import { ImageConverter } from "./converters/image-converter"
+import { OfficeConverter } from "./office-converter"
+import { TextConverter } from "./text-converter"
+import { ImageConverter } from "./image-converter"
 
 export function FileConverter() {
   const [activeTab, setActiveTab] = useState<string>("office")
